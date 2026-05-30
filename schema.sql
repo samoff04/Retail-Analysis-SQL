@@ -7,7 +7,6 @@
 CREATE DATABASE retail_analytics;
 USE retail_analytics;
 
--- Customers table
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
     name VARCHAR(100),
@@ -15,7 +14,6 @@ CREATE TABLE customers (
     signup_date DATE
 );
 
--- Products table
 CREATE TABLE products (
     product_id INT PRIMARY KEY,
     product_name VARCHAR(100),
@@ -24,7 +22,6 @@ CREATE TABLE products (
     selling_price DECIMAL(10,2)
 );
 
--- Orders table
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
     customer_id INT,
@@ -33,7 +30,6 @@ CREATE TABLE orders (
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
 
--- Order Items table
 CREATE TABLE order_items (
     order_item_id INT PRIMARY KEY,
     order_id INT,
