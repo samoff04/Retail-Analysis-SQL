@@ -1,4 +1,4 @@
-<!-- # Retail Analytics SQL Project
+# Retail Analytics SQL Project
 
 ## Overview
 This project is a SQL-based retail analytics system designed to analyze sales, customers, and product performance.
@@ -32,4 +32,4 @@ Analyze retail data to generate insights on:
 - Business Analysis
 
 ## Author
-Samarth Varshney -->
+Samarth Varshney
